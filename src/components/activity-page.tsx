@@ -6,7 +6,7 @@ import type {
 import { ActivityTypeOne } from "./activity-type-one";
 import { ActivityTypeTwo } from "./activity-type-two";
 
-export default function Activity({ index }: { index: number }) {
+export default function ActivityPage({ index }: { index: number }) {
   const activity = (JSON.parse(sessionStorage.getItem("quiz") || "{}") as IQuiz)
     .activities[index];
   return index === 0 ? (

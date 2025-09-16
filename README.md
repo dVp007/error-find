@@ -46,6 +46,14 @@ npm run preview
 
 The build output will be generated inside the dist/ folder.
 
+## 📖 Storybook
+
+To run Storybook and view the different states of the components.
+
+```bash
+npm run storybook
+```
+
 ## 🌐 Global Deployment
 
 Once the code is merged into the main branch, the CI/CD pipeline automatically deploys the application to AWS S3. You can view the changes [here](http://error-find.s3-website.eu-north-1.amazonaws.com/).
