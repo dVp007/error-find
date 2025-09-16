@@ -48,7 +48,7 @@ The build output will be generated inside the dist/ folder.
 
 ## 🌐 Global Deployment
 
-Once the code is merged into the main branch, the CI/CD pipeline will automatically deploy the application to AWS S3. You can see the changes [here](http://error-find.s3-website.eu-north-1.amazonaws.com/).
+Once the code is merged into the main branch, the CI/CD pipeline automatically deploys the application to AWS S3. You can view the changes [here](http://error-find.s3-website.eu-north-1.amazonaws.com/).
 
 ## 🧑‍💻 Contributing
 
