@@ -10,7 +10,7 @@ function App() {
       <Box sx={{ borderRadius: 0 }}>
         <BoxHeader
           textAlign={"center"}
-          title="CAE"
+          title={quiz?.heading ?? ""}
           subtitle={quiz?.name ?? ""}
           orientation="vertical"
         />
